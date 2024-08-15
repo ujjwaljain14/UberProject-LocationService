@@ -38,7 +38,7 @@ public class LocationController {
         }
     }
 
-    @GetMapping("/nearby/drivers")
+    @PostMapping("/nearby/drivers")
     public ResponseEntity<?> getNearbyDrivers(@RequestBody NearbyDriversRequestDto nearbyDriversRequestDto){
 
         try {
